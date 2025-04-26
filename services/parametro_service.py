@@ -1,33 +1,31 @@
 import httpx
 import logging
 from typing import Dict, List, Optional
+from .external_services import ExternalAPIService
 
 class ParametroService:
     def __init__(self):
         self.base_url = "http://localhost:8000" 
+        self.external_service = ExternalAPIService()
         
     async def get_estacao_parametros(self, uid: str) -> Dict[str, str]:
         """Retorna um dicionário com o mapeamento entre json e id do parâmetro"""
         try:
-            async with httpx.AsyncClient() as client:
-                # Busca a estação pelo UID
-                response = await client.get(f"{self.base_url}/estacoes/uid/{uid}")
-                if response.status_code != 200:
-                    logging.error(f"Erro ao buscar estação: {response.status_code}")
-                    return {}
+            
+            exists = await self.external_service.verify_station_exists(uid)
+            if not exists:
+                logging.error(f"Estação {uid} não encontrada ou inválida")
+                return {}
 
-                estacao = response.json()
-                parametros_map = {}
-
-                # Para cada sensor da estação
-                for sensor in estacao.get("sensores", []):
+            # Para cada sensor da estação
+            for sensor in estacao.get("sensores", []):
                     # Busca os detalhes do parâmetro
-                    param_response = await client.get(f"{self.base_url}/parametros/{sensor['id']}")
-                    if param_response.status_code == 200:
-                        param_details = param_response.json()
-                        # Mapeia o campo 'json' com o nome do parâmetro
-                        if param_details.get("json"):
-                            parametros_map[param_details["json"]] = param_details["nome"]
+                param_response = await client.get(f"{self.base_url}/parametros/{sensor['id']}")
+                if param_response.status_code == 200:
+                    param_details = param_response.json()
+                    # Mapeia o campo 'json' com o nome do parâmetro
+                    if param_details.get("json"):
+                        parametros_map[param_details["json"]] = param_details["nome"]
 
                 return parametros_map
 

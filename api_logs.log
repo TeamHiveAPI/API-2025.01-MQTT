@@ -1,0 +1,1001 @@
+2025-04-23 16:56:56,779 - ERROR - Erro ao iniciar serviço MQTT: 'MQTTService' object has no attribute 'start'
+2025-04-23 16:56:56,779 - INFO - API iniciada com sucesso
+2025-04-25 18:39:24,256 - ERROR - Erro ao iniciar serviço MQTT: 'MQTTService' object has no attribute 'start'
+2025-04-25 18:39:24,256 - INFO - API iniciada com sucesso
+2025-04-25 18:41:38,991 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:41:38,992 - INFO - API iniciada com sucesso
+2025-04-25 18:41:38,993 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:41:39,007 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 18:41:44,248 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:41:44,248 - INFO - API iniciada com sucesso
+2025-04-25 18:41:44,249 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:41:44,249 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 18:59:56,973 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:59:56,974 - INFO - API iniciada com sucesso
+2025-04-25 18:59:56,975 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 18:59:56,975 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:21:31,889 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:21:31,889 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<SimulatorService.generate_fake_data() done, defined at E:\Works\api\api-hive\API-2025.01-MQTT\services\simulador_service.py:29> exception=AttributeError("'SimulatorService' object has no attribute 'get_active_stations'")>
+Traceback (most recent call last):
+  File "E:\Works\api\api-hive\API-2025.01-MQTT\services\simulador_service.py", line 31, in generate_fake_data
+    await self.get_active_stations()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SimulatorService' object has no attribute 'get_active_stations'
+2025-04-25 20:21:31,890 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:21:31,890 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:21:31,891 - INFO - API iniciada com sucesso
+2025-04-25 20:21:55,071 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:21:55,072 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<SimulatorService.generate_fake_data() done, defined at E:\Works\api\api-hive\API-2025.01-MQTT\services\simulador_service.py:29> exception=AttributeError("'SimulatorService' object has no attribute 'get_active_stations'")>
+Traceback (most recent call last):
+  File "E:\Works\api\api-hive\API-2025.01-MQTT\services\simulador_service.py", line 31, in generate_fake_data
+    await self.get_active_stations()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SimulatorService' object has no attribute 'get_active_stations'
+2025-04-25 20:21:55,072 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:21:55,072 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:21:55,073 - INFO - API iniciada com sucesso
+2025-04-25 20:23:35,143 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:23:35,144 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:23:35,144 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:23:35,391 - INFO - API iniciada com sucesso
+2025-04-25 20:23:43,588 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:23:43,590 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:23:43,590 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:23:43,814 - INFO - API iniciada com sucesso
+2025-04-25 20:23:44,093 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:23:44,585 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:23:44,679 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:24:15,163 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:24:15,646 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:24:15,657 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:24:46,140 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:24:46,608 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:24:46,619 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:30:10,910 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:30:10,911 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:30:10,911 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:30:11,130 - INFO - API iniciada com sucesso
+2025-04-25 20:30:11,402 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:30:11,899 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:30:11,990 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:31:19,853 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:31:19,854 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:31:19,855 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:31:20,585 - INFO - API iniciada com sucesso
+2025-04-25 20:31:20,855 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:31:21,052 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:21,054 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:21,054 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:21,317 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:31:21,398 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:31:21,520 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:21,521 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:21,522 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:22,000 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:22,005 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:22,006 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:22,479 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:22,481 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:22,481 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:51,871 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:31:52,337 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:31:52,346 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:31:54,152 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:54,154 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:54,154 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:54,608 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:54,610 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:54,610 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:55,088 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:55,090 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:55,090 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:55,570 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:55,572 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:55,572 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:56,033 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:56,035 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:56,035 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:31:56,500 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:31:56,501 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:31:56,502 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:22,805 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:32:23,287 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:32:23,303 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:32:28,166 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:28,167 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:28,168 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:28,633 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:28,648 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:28,649 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:29,132 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:29,133 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:29,133 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:29,600 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:29,601 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:29,602 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:30,068 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:30,069 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:30,070 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:30,518 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:30,520 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:30,520 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:30,984 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:32:30,985 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:32:30,986 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:32:53,790 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:32:54,258 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:32:54,269 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:33:02,690 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:02,692 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:02,692 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:03,159 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:03,161 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:03,161 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:03,627 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:03,628 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:03,629 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:04,077 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:04,078 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:04,078 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:04,534 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:04,535 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:04,536 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:05,001 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:05,002 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:05,003 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:05,478 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:05,480 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:05,480 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:33:05,953 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:33:05,955 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:33:05,956 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:22,561 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:37:22,563 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:37:22,563 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:37:22,590 - INFO - Simulador iniciado com sucesso
+2025-04-25 20:37:22,617 - INFO - Serviço de sincronização iniciado
+2025-04-25 20:37:22,617 - INFO - Serviço de sincronização iniciado com sucesso
+2025-04-25 20:37:22,644 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:37:22,644 - INFO - API iniciada com sucesso
+2025-04-25 20:37:22,645 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:37:22,645 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:37:23,616 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:37:23,818 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:23,820 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:23,821 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:24,080 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:37:24,168 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:37:24,281 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:24,282 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:24,283 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:24,750 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:24,751 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:24,752 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:25,218 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:25,219 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:25,220 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:25,687 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:25,689 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:25,689 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:26,141 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:26,143 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:26,143 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:26,591 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:26,592 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:26,592 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:27,044 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:27,045 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:27,045 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:54,634 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:37:55,089 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:37:55,099 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:37:58,741 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:58,743 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:58,743 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:59,225 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:59,226 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:59,227 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:37:59,706 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:37:59,708 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:37:59,708 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:00,160 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:00,162 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:00,162 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:00,614 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:00,616 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:00,616 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:01,081 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:01,083 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:01,083 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:01,550 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:01,551 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:01,552 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:02,018 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:02,019 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:02,019 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:02,484 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:02,486 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:02,486 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:02,952 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:02,953 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:02,953 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:25,584 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:38:26,053 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:38:26,063 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:38:34,647 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:34,648 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:34,648 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:35,116 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:35,118 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:35,118 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:35,587 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:35,588 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:35,588 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:36,043 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:36,045 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:36,045 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:36,512 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:36,514 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:36,514 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:36,967 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:36,968 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:36,969 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:37,441 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:37,442 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:37,443 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:37,899 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:37,901 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:37,901 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:38,354 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:38,355 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:38,355 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:38,825 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:38,827 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:38,827 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:39,289 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:38:39,291 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:38:39,291 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:38:56,535 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:38:56,986 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:38:56,996 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:39:10,944 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:10,945 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:10,945 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:11,427 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:11,429 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:11,429 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:11,899 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:11,901 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:11,901 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:12,369 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:12,370 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:12,371 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:12,834 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:12,835 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:12,836 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:13,288 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:13,290 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:13,290 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:13,740 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:13,741 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:13,742 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:14,210 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:14,211 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:14,212 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:14,679 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:14,681 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:14,681 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:15,148 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:15,150 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:15,150 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:15,611 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:15,613 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:15,613 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:16,063 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:16,065 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:16,065 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:27,469 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:39:27,941 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:39:27,957 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:39:47,761 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:47,762 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:47,762 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:48,226 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:48,227 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:48,228 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:48,679 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:48,681 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:48,681 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:49,159 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:49,160 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:49,161 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:49,632 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:49,634 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:49,635 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:50,104 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:50,106 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:50,106 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:50,575 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:50,576 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:50,577 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:51,028 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:51,029 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:51,030 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:51,493 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:51,495 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:51,495 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:51,946 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:51,948 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:51,948 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:52,413 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:52,415 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:52,415 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:52,884 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:52,885 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:52,886 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:53,368 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:39:53,370 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:39:53,370 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:39:58,434 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:39:58,888 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:39:58,899 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:40:25,059 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:25,061 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:25,061 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:25,532 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:25,534 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:25,534 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:26,000 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:26,002 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:26,002 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:26,456 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:26,458 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:26,458 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:26,913 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:26,914 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:26,914 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:27,410 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:27,412 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:27,412 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:27,891 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:27,892 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:27,893 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:28,361 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:28,362 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:28,363 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:28,813 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:28,814 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:28,815 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:29,471 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:40:29,674 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:29,676 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:29,676 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:29,936 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:40:29,946 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:40:30,138 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:30,139 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:30,139 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:30,622 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:30,624 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:30,624 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:31,079 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:31,081 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:31,081 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:40:31,535 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:40:31,536 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:40:31,537 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:00,434 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:41:00,920 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:41:00,930 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:41:03,226 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:03,227 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:03,228 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:03,699 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:03,700 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:03,701 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:04,153 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:04,155 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:04,155 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:04,608 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:04,610 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:04,610 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:05,060 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:05,062 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:05,062 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:05,531 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:05,533 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:05,534 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:05,989 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:05,990 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:05,991 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:06,471 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:06,472 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:06,473 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:06,927 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:06,928 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:06,929 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:07,379 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:07,380 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:07,381 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:07,845 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:07,846 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:07,847 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:08,317 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:08,318 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:08,318 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:08,800 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:08,801 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:08,814 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:09,266 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:09,268 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:09,268 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:09,719 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:09,720 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:09,720 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:10,170 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:10,172 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:10,172 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:31,405 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:41:31,861 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:41:31,879 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:41:41,867 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:41,868 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:41,869 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:42,322 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:42,324 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:42,324 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:42,776 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:42,777 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:42,778 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:43,234 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:43,235 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:43,236 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:43,718 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:43,720 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:43,720 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:44,184 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:44,185 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:44,186 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:44,653 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:44,655 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:44,655 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:45,118 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:45,120 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:45,120 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:45,584 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:45,585 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:45,586 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:46,057 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:46,058 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:46,059 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:46,555 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:46,557 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:46,557 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:47,044 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:47,046 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:47,046 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:47,529 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:47,530 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:47,530 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:47,982 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:47,983 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:47,983 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:48,449 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:48,451 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:48,451 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:48,950 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:48,951 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:48,952 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:41:49,418 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:41:49,419 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:41:49,420 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:02,351 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:42:02,808 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:42:02,818 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:42:21,108 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:21,109 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:21,110 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:21,560 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:21,562 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:21,562 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:22,013 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:22,014 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:22,015 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:22,496 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:22,498 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:22,498 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:22,983 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:22,984 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:22,985 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:23,450 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:23,451 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:23,452 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:23,934 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:23,936 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:23,936 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:24,384 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:24,385 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:24,385 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:24,839 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:24,840 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:24,841 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:25,306 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:25,308 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:25,308 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:25,778 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:25,780 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:25,780 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:26,233 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:26,234 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:26,235 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:26,699 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:26,701 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:26,701 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:27,154 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:27,155 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:27,156 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:27,609 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:27,610 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:27,611 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:28,076 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:28,078 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:28,078 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:28,545 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:28,546 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:28,547 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:29,002 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:42:29,003 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:42:29,004 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:42:33,289 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:42:33,762 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:42:33,771 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:43:00,673 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:00,675 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:00,675 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:01,145 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:01,147 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:01,147 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:01,601 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:01,602 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:01,602 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:02,070 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:02,071 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:02,072 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:02,524 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:02,526 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:02,526 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:02,980 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:02,981 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:02,981 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:03,432 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:03,434 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:03,434 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:03,982 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:03,983 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:03,984 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:04,236 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:43:04,454 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:04,455 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:04,456 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:04,695 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:43:04,705 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:43:04,950 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:04,951 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:04,952 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:05,417 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:05,419 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:05,419 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:05,870 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:05,872 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:05,872 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:06,323 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:06,325 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:06,325 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:06,792 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:06,794 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:06,794 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:07,260 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:07,262 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:07,262 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:07,735 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:07,736 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:07,737 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:08,200 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:08,201 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:08,202 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:08,670 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:08,671 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:08,671 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:09,126 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:09,128 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:09,128 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:35,193 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:43:35,651 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:43:35,668 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:43:40,816 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:40,818 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:40,818 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:41,287 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:41,288 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:41,288 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:41,755 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:41,756 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:41,757 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:42,214 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:42,216 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:42,216 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:42,680 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:42,682 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:42,682 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:43,149 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:43,151 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:43,151 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:43,636 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:43,638 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:43,638 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:44,107 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:44,109 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:44,109 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:44,561 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:44,562 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:44,562 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:45,019 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:45,020 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:45,021 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:45,493 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:45,494 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:45,495 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:45,965 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:45,966 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:45,967 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:46,450 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:46,452 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:46,452 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:46,905 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:46,906 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:46,907 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:47,362 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:47,363 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:47,363 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:47,832 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:47,834 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:47,834 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:48,317 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:48,319 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:48,319 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:48,801 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:48,802 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:48,803 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:49,284 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:49,285 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:49,285 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:49,735 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:49,736 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:49,736 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:43:50,209 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:43:50,211 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:43:50,211 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:06,139 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:44:11,311 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:44:11,313 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:44:11,313 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:44:11,428 - INFO - Simulador iniciado com sucesso
+2025-04-25 20:44:11,461 - INFO - Serviço de sincronização iniciado
+2025-04-25 20:44:11,461 - INFO - Serviço de sincronização iniciado com sucesso
+2025-04-25 20:44:11,490 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:44:11,490 - INFO - API iniciada com sucesso
+2025-04-25 20:44:11,491 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:44:11,491 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:44:12,568 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:44:12,788 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:12,790 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:12,790 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:13,047 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:44:13,128 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:44:13,247 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:13,249 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:13,249 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:13,713 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:13,715 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:13,715 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:14,168 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:14,169 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:14,170 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:14,623 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:14,624 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:14,625 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:15,077 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:15,079 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:15,079 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:15,542 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:15,544 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:15,544 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:15,996 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:15,997 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:15,997 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:16,462 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:16,463 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:16,464 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:16,916 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:16,931 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:16,931 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:17,401 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:17,403 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:17,403 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:17,854 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:17,856 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:17,856 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:18,309 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:18,311 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:18,311 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:18,763 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:18,765 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:18,765 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:19,216 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:19,218 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:19,218 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:19,669 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:19,671 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:19,671 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:20,136 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:20,138 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:20,138 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:20,591 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:20,592 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:20,593 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:21,045 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:21,047 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:21,047 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:21,510 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:21,512 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:21,512 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:21,961 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:21,962 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:21,962 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:44:43,617 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:44:44,100 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:44:44,111 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:44:53,633 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:44:53,646 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:44:53,646 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:45:14,576 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:45:15,030 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:45:15,040 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:45:25,364 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:45:25,366 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:45:25,366 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:45:25,832 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:45:25,834 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:45:25,834 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:45:45,522 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:45:45,976 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:45:45,995 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:46:29,260 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:46:29,262 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:46:29,262 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:46:29,292 - INFO - Simulador iniciado com sucesso
+2025-04-25 20:46:29,332 - INFO - Serviço de sincronização iniciado
+2025-04-25 20:46:29,332 - INFO - Serviço de sincronização iniciado com sucesso
+2025-04-25 20:46:29,363 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:46:29,363 - INFO - API iniciada com sucesso
+2025-04-25 20:46:29,364 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:46:29,364 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:46:30,140 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:46:30,335 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:46:30,336 - ERROR - Erro na sincronização: name 'time' is not defined
+2025-04-25 20:46:30,595 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:46:30,676 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:47:01,150 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:47:01,810 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:47:01,811 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:47:01,811 - ERROR - Erro na sincronização: name 'time' is not defined
+2025-04-25 20:47:01,821 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:47:32,284 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:47:32,756 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:47:32,766 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:47:33,272 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:47:33,272 - ERROR - Erro na sincronização: name 'time' is not defined
+2025-04-25 20:48:03,226 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:48:03,678 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:48:03,695 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:48:04,775 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:04,775 - ERROR - Erro na sincronização: name 'time' is not defined
+2025-04-25 20:48:24,267 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:48:24,268 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:48:24,268 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:48:24,296 - INFO - Simulador iniciado com sucesso
+2025-04-25 20:48:24,323 - INFO - Serviço de sincronização iniciado
+2025-04-25 20:48:24,323 - INFO - Serviço de sincronização iniciado com sucesso
+2025-04-25 20:48:24,350 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:48:24,350 - INFO - API iniciada com sucesso
+2025-04-25 20:48:24,351 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 20:48:24,351 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 20:48:25,322 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 20:48:25,513 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:25,515 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:25,515 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:25,772 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 20:48:25,851 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 20:48:25,995 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:25,997 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:25,997 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:26,509 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:26,511 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:26,511 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:26,979 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:26,980 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:26,980 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:27,446 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:27,447 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:27,448 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:27,912 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:27,913 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:27,914 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 20:48:28,362 - INFO - HTTP Request: GET http://localhost:8000/estacoes/uid/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 200 OK"
+2025-04-25 20:48:28,364 - INFO - HTTP Request: GET http://localhost:8000/parametros/1 "HTTP/1.1 403 Forbidden"
+2025-04-25 20:48:28,364 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-25 21:48:29,119 - INFO - Simulador iniciado com sucesso
+2025-04-25 21:48:29,204 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 21:48:29,204 - INFO - API iniciada com sucesso
+2025-04-25 21:48:29,205 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-25 21:48:29,205 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-25 21:48:29,842 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 21:48:30,303 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 21:48:30,441 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 21:49:00,910 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 21:49:01,375 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 21:49:01,386 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 21:49:31,866 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 21:49:32,337 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 21:49:32,357 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-25 21:50:02,840 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-25 21:50:03,312 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-25 21:50:03,322 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-26 08:47:00,913 - INFO - Processador de dados iniciado
+2025-04-26 08:47:00,927 - INFO - Simulador iniciado com sucesso
+2025-04-26 08:47:00,979 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-26 08:47:00,979 - INFO - API iniciada com sucesso
+2025-04-26 08:47:00,980 - INFO - Serviço MQTT iniciado com sucesso
+2025-04-26 08:47:00,980 - INFO - Conectado ao broker MQTT com código: 0
+2025-04-26 08:47:02,109 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:02,110 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:02,110 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:02,110 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:02,110 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:02,328 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-26 08:47:02,599 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:02,599 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:02,599 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:02,599 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:02,599 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:02,870 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-26 08:47:02,964 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-26 08:47:03,065 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:03,065 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:03,065 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:03,065 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:03,066 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:03,533 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:03,534 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:03,534 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:03,534 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:03,534 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:33,439 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-26 08:47:33,903 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-26 08:47:33,914 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-26 08:47:35,018 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:35,019 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:35,019 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:35,019 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:35,019 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:35,472 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:35,472 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:35,472 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:35,472 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:35,472 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:35,938 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:35,939 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:35,939 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:35,939 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:35,939 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:36,409 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:36,410 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:36,410 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:36,410 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:36,410 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:36,867 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:36,867 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:36,867 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:36,867 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:36,867 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:37,353 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:47:37,354 - ERROR - Erro na API externa: 405
+2025-04-26 08:47:37,354 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:47:37,354 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:47:37,354 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:04,376 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-26 08:48:04,892 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-26 08:48:04,903 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-26 08:48:08,874 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:08,875 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:08,875 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:08,875 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:08,875 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:09,360 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:09,361 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:09,361 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:09,361 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:09,361 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:09,905 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:09,905 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:09,905 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:09,906 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:09,906 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:10,408 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:10,408 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:10,408 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:10,408 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:10,408 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:10,889 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:10,889 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:10,889 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:10,889 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:10,889 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:11,342 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:11,342 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:11,342 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:11,343 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:11,343 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:11,797 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:11,797 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:11,798 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:11,798 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:11,798 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:35,395 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-26 08:48:35,881 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-26 08:48:35,892 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)
+2025-04-26 08:48:43,269 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:43,269 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:43,269 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:43,269 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:43,269 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:43,725 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:43,725 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:43,725 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:43,725 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:43,725 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:44,180 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:44,180 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:44,180 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:44,180 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:44,181 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:44,667 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:44,667 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:44,667 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:44,667 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:44,667 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:45,152 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:45,153 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:45,153 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:45,153 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:45,153 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:45,610 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:45,611 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:45,611 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:45,611 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:45,611 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:46,069 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:46,070 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:46,070 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:46,070 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:46,070 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:46,540 - INFO - HTTP Request: GET http://localhost:8000/estacoes/92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 "HTTP/1.1 405 Method Not Allowed"
+2025-04-26 08:48:46,541 - ERROR - Erro na API externa: 405
+2025-04-26 08:48:46,541 - ERROR - Estação 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525 não encontrada ou inválida
+2025-04-26 08:48:46,541 - ERROR - Nenhum parâmetro válido encontrado para: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:48:46,541 - WARNING - Falha no processamento para dados: 92e88871-c5bf-4d2c-bf0c-a3d6d3eaa525
+2025-04-26 08:49:06,438 - INFO - HTTP Request: GET http://localhost:8000/estacoes/ "HTTP/1.1 200 OK"
+2025-04-26 08:49:06,907 - INFO - HTTP Request: GET http://localhost:8000/parametros/ "HTTP/1.1 200 OK"
+2025-04-26 08:49:06,924 - INFO - Dados salvos no MongoDB com sucesso após 1 tentativa(s)

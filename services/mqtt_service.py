@@ -16,6 +16,17 @@ class MQTTService:
         self.mqtt_client.on_message = self.on_message
         self.mqtt_client.on_connect = self.on_connect
         
+    def start(self):
+        try:
+            # Conecta ao broker MQTT (localhost na porta padrão 1883)
+            self.mqtt_client.connect("localhost", 1883, 60)
+            # Inicia o loop em segundo plano
+            self.mqtt_client.loop_start()
+            logging.info("Serviço MQTT iniciado com sucesso")
+        except Exception as e:
+            logging.error(f"Erro ao conectar ao broker MQTT: {str(e)}")
+            raise
+        
     def on_connect(self, client, userdata, flags, rc):
         logging.info(f"Conectado ao broker MQTT com código: {rc}")
         client.subscribe("api-fatec/estacao/dados/")
