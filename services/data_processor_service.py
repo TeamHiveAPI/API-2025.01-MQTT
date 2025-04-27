@@ -1,236 +1,137 @@
-# from .parametro_service import ParametroService
-# from .mongodb_service import MongoDBService
-# import httpx
-# import logging
-# from datetime import datetime
-# import time
-
-# class DataProcessorService:
-#     def __init__(self):
-#         self.base_url = "http://localhost:8000"
-#         self.mongodb_service = MongoDBService()
-#         self.parametro_service = ParametroService()
-#         self.running = False
-
-#     async def process_loop(self):
-#         while self.running:
-#             # Busca dados não processados
-#             dados_nao_processados = self.mongodb_service.collection.find({"processado": {"$ne": True}})
-            
-#             for dados in dados_nao_processados:
-#                 await self.process_and_send_data(dados)
-            
-#             await asyncio.sleep(31)  # Processa a cada 31 segundos
-    
-#     def start(self):
-#         self.running = True
-#         asyncio.create_task(self.process_loop())
-#         logging.info("Processador de dados iniciado")
-    
-#     def stop(self):
-#         self.running = False
-#         logging.info("Processador de dados parado")
-
-#     async def get_estacao_info(self, uid: str):
-#         try:
-#             async with httpx.AsyncClient() as client:
-#                 response = await client.get(f"{self.base_url}/estacoes/uid/{uid}")
-#                 if response.status_code == 200:
-#                     return response.json()
-#                 return None
-#         except Exception as e:
-#             logging.error(f"Erro ao buscar estação: {str(e)}")
-#             return None
-#     async def process_and_send_data(self, dados_mongodb: dict):
-#         try:
-#             # Busca informações da estação
-#             estacao_info = await self.get_estacao_info(dados_mongodb["uid"])
-#             if not estacao_info:
-#                 logging.error(f"Estação não encontrada: {dados_mongodb['uid']}")
-#                 return False
-
-#             async with httpx.AsyncClient(follow_redirects=True) as client:
-#                 success_count = 0
-                
-#                  # Para cada sensor da estação
-#                 for sensor in estacao_info["sensores"]:
-#                     # Busca informações do parâmetro
-#                     param_response = await client.get(f"{self.base_url}/parametros/{sensor['id']}")
-#                     if param_response.status_code != 200:
-#                         continue
-
-#                     param_info = param_response.json()
-#                     json_field = param_info["json"]  # Campo que corresponde ao nome no MongoDB
-
-#                     # Verifica se o valor existe no MongoDB
-#                     if json_field in dados_mongodb:
-#                         timestamp = dados_mongodb.get("unixtime", dados_mongodb.get("unix_time", int(time.time())))
-#                         data_hora = datetime.fromtimestamp(timestamp).isoformat()
-                        
-#                         medida = {
-#                             "estacao_id": estacao_info["id"],
-#                             "parametro_id": sensor["id"],
-#                             "valor": dados_mongodb[json_field],
-#                             "data_hora": data_hora
-#                         }
-
-#                         try:
-#                             response = await client.post(f"{self.base_url}/medidas", json=medida)
-#                             if response.status_code in [200, 201]:
-#                                 success_count += 1
-#                                 logging.info(f"Medida para {param_info['nome']} enviada com sucesso")
-#                             else:
-#                                 logging.error(f"Erro ao enviar medida para {param_info['nome']}: {response.status_code}")
-#                         except Exception as e:
-#                             logging.error(f"Erro ao enviar medida para {param_info['nome']}: {str(e)}")
-
-#                 if success_count > 0:
-#                     # Atualiza o status no MongoDB
-#                     self.mongodb_service.collection.update_one(
-#                         {"_id": dados_mongodb["_id"]},
-#                         {"$set": {"processado": True}}
-#                     )
-#                     return True
-
-#                 return False
-
-#         except Exception as e:
-#             logging.error(f"Erro ao processar e enviar dados: {str(e)}")
-#             return False
-
-
-
-
-from .parametro_service import ParametroService
-from .mongodb_service import MongoDBService
-from .external_services import ExternalAPIService
-import httpx
-import logging
-from datetime import datetime
-import time
 import asyncio
-
+import logging
+import time
+import httpx
+from datetime import datetime
+from .mongodb_service import MongoDBService
+ 
 class DataProcessorService:
     def __init__(self):
-        self.base_url = "http://localhost:8000"
         self.mongodb_service = MongoDBService()
-        self.parametro_service = ParametroService()
-        self.external_service = ExternalAPIService()
         self.running = False
-
-    async def process_loop(self):
-        while self.running:
-            try:
-                # Busca dados não processados
-                dados_nao_processados = self.mongodb_service.collection.find({"processado": {"$ne": True}})
-                
-                for dados in dados_nao_processados:
-                    success = await self.process_and_send_data(dados)
-                    if success:
-                        logging.info(f"Processamento bem sucedido para dados: {dados['uid']}")
-                    else:
-                        logging.warning(f"Falha no processamento para dados: {dados['uid']}")
-                
-                await asyncio.sleep(31)  # Processa a cada 31 segundos
-            except Exception as e:
-                logging.error(f"Erro no loop de processamento: {str(e)}")
-                await asyncio.sleep(31)  # Continua tentando mesmo após erro
-    
-    def start(self):
-        self.running = True
-        asyncio.create_task(self.process_loop())
-        logging.info("Processador de dados iniciado")
-    
-    def stop(self):
-        self.running = False
-        logging.info("Processador de dados parado")
-
+        self.base_url = "http://localhost:8000"
+        self.parametros = {}
+        self.estacoes = {}
+ 
     async def get_estacao_info(self, uid: str):
-        # Usa o ExternalAPIService para verificar a estação
-        exists = await self.external_service.verify_station_exists(uid)
-        if not exists:
-            logging.error(f"Estação {uid} não encontrada ou inválida")
-            return None
-            
         try:
             async with httpx.AsyncClient() as client:
                 response = await client.get(f"{self.base_url}/estacoes/uid/{uid}")
                 if response.status_code == 200:
                     return response.json()
-                logging.error(f"Erro ao buscar detalhes da estação {uid}: Status {response.status_code}")
                 return None
         except Exception as e:
-            logging.error(f"Erro ao buscar detalhes da estação {uid}: {str(e)}")
+            logging.error(f"Erro ao buscar estação: {str(e)}")
             return None
-
-    async def process_and_send_data(self, dados_mongodb: dict):
+   
+ 
+    async def get_parametros(self):
         try:
-            # Valida os parâmetros usando o ParametroService
-            parametros_validos = await self.parametro_service.validar_parametros_mongodb(dados_mongodb)
-            if not parametros_validos:
-                logging.error(f"Nenhum parâmetro válido encontrado para: {dados_mongodb['uid']}")
-                return False
-
-            # Busca informações da estação
-            estacao_info = await self.get_estacao_info(dados_mongodb["uid"])
-            if not estacao_info:
-                logging.error(f"Estação não encontrada: {dados_mongodb['uid']}")
-                return False
-
             async with httpx.AsyncClient() as client:
-                success_count = 0
-                total_count = 0
-                
-                # Para cada sensor da estação
-                for sensor in estacao_info["sensores"]:
-                    param_response = await client.get(f"{self.base_url}/parametros/{sensor['id']}")
-                    if param_response.status_code != 200:
-                        logging.warning(f"Erro ao buscar parâmetro {sensor['id']}: Status {param_response.status_code}")
-                        continue
-
-                    param_info = param_response.json()
-                    param_nome = param_info["nome"]
-
-                    if param_nome in parametros_validos:
-                        total_count += 1
-                        try:
-                            medida = {
-                                "estacao_id": estacao_info["id"],
-                                "parametro_id": sensor["id"],
-                                "valor": parametros_validos[param_nome],
-                                "data_hora": datetime.fromtimestamp(dados_mongodb.get("unixtime", dados_mongodb.get("unix_time", int(time.time())))).isoformat()
-                            }
-
-                            response = await client.post(f"{self.base_url}/medidas", json=medida)
-                            if response.status_code in [200, 201]:
-                                success_count += 1
-                                logging.info(f"Medida para {param_nome} enviada com sucesso")
-                            else:
-                                logging.error(f"Erro ao enviar medida para {param_nome}: Status {response.status_code}")
-                        except Exception as e:
-                            logging.error(f"Erro ao processar medida para {param_nome}: {str(e)}")
-
-                # Atualiza status no MongoDB apenas se houver algum sucesso
-                if success_count > 0:
-                    try:
-                        self.mongodb_service.collection.update_one(
-                            {"_id": dados_mongodb["_id"]},
-                            {"$set": {
-                                "processado": True,
-                                "sucesso_total": success_count,
-                                "total_parametros": total_count,
-                                "data_processamento": datetime.now().isoformat()
-                            }}
-                        )
-                        logging.info(f"Processamento finalizado - Sucesso: {success_count}/{total_count} parâmetros")
-                        return True
-                    except Exception as e:
-                        logging.error(f"Erro ao atualizar status no MongoDB: {str(e)}")
-                        return False
-
-                logging.warning(f"Nenhuma medida processada com sucesso de {total_count} tentativas")
-                return False
-
+                response = await client.get(f"{self.base_url}/parametros/")
+                if response.status_code == 200:
+                    # Cria um mapeamento de json para id do parâmetro
+                    parametros = response.json()
+                    self.parametros = {
+                        param.get("json", self.generate_json_key(param["nome"])): param["id"]
+                        for param in parametros
+                    }
+                    logging.info(f"Mapeamento de parâmetros atualizado: {self.parametros}")
         except Exception as e:
-            logging.error(f"Erro ao processar e enviar dados: {str(e)}")
+            logging.error(f"Erro ao buscar parâmetros: {str(e)}")
+ 
+    def generate_json_key(self, param_name: str):
+        # Remove espaços e caracteres especiais, converte para minúsculas
+        key = param_name.lower()
+        key = ''.join(c for c in key if c.isalnum() or c == '_')
+        return key
+ 
+    async def process_and_send_data(self, dados):
+        try:
+            await self.get_parametros()
+           
+            # Busca informações da estação para obter o ID numérico
+            estacao_info = await self.get_estacao_info(dados["uid"])
+            if not estacao_info:
+                print(f"Estação não encontrada: {dados['uid']}")
+                return False
+ 
+            medidas = []
+            timestamp = dados["unixtime"]
+            estacao_id = estacao_info["id"]  # Usando o ID numérico da estação
+ 
+            # Para cada campo nos dados (exceto uid, unixtime e processado)
+            for campo, valor in dados.items():
+                if campo not in ["uid", "unixtime", "processado", "_id"]:
+                    if campo in self.parametros:
+                        medida = {
+                            "estacao_id": estacao_id,  # ID numérico ao invés do UUID
+                            "parametro_id": self.parametros[campo],
+                            "valor": valor,
+                            "data_hora": datetime.fromtimestamp(timestamp).isoformat()
+                        }
+                        medidas.append(medida)
+                        print(f"Medida preparada: {medida}")
+                    else:
+                        print(f"Campo {campo} não encontrado no mapeamento: {self.parametros}")
+ 
+            # Envia as medidas para a API
+            if medidas:
+                success_count = 0
+                async with httpx.AsyncClient() as client:
+                    for medida in medidas:
+                        try:
+                            print(f"Tentando enviar medida: {medida}")
+                            response = await client.post(f"{self.base_url}/medidas/", json=medida)
+                            if response.status_code == 201:
+                                success_count += 1
+                                print(f"Medida enviada com sucesso: {medida}")
+                            else:
+                                print(f"Erro ao enviar medida: {response.status_code} - {response.text}")
+                        except Exception as e:
+                            print(f"Exceção ao enviar medida: {str(e)}")
+ 
+                if success_count > 0:
+                    self.mongodb_service.collection.update_one(
+                        {"_id": dados["_id"]},
+                        {"$set": {"processado": True}}
+                    )
+                    return True
+                return False
+ 
+        except Exception as e:
+            print(f"Erro geral no processamento: {str(e)}")
             return False
+ 
+ 
+ 
+    async def process_loop(self):
+        while self.running:
+            try:
+                # Busca dados não processados
+                dados_nao_processados = list(self.mongodb_service.collection.find({"processado": {"$ne": True}}))
+                logging.info(f"Encontrados {len(dados_nao_processados)} registros não processados")
+               
+                for dados in dados_nao_processados:
+                    success = await self.process_and_send_data(dados)
+                    if success:
+                        print(f"Sucesso: {dados['uid']}")
+                        logging.info(f"Dados processados com sucesso: {dados['uid']}")
+                    else:
+                        print(f"Falha: {dados['uid']}")
+                        logging.warning(f"Falha ao processar dados: {dados['uid']}")
+               
+                await asyncio.sleep(31)
+            except Exception as e:
+                logging.error(f"Erro no loop de processamento: {str(e)}")
+                await asyncio.sleep(31)
+ 
+    def start(self):
+        self.running = True
+        asyncio.create_task(self.process_loop())
+        logging.info("Processador de dados iniciado")
+ 
+    def stop(self):
+        self.running = False
+        logging.info("Processador de dados parado")
+ 

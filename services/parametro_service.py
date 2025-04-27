@@ -2,21 +2,28 @@ import httpx
 import logging
 from typing import Dict, List, Optional
 from .external_services import ExternalAPIService
-
+ 
 class ParametroService:
     def __init__(self):
-        self.base_url = "http://localhost:8000" 
+        self.base_url = "http://localhost:8000"
         self.external_service = ExternalAPIService()
-        
+       
     async def get_estacao_parametros(self, uid: str) -> Dict[str, str]:
         """Retorna um dicionário com o mapeamento entre json e id do parâmetro"""
         try:
-            
+           
             exists = await self.external_service.verify_station_exists(uid)
             if not exists:
                 logging.error(f"Estação {uid} não encontrada ou inválida")
                 return {}
-
+            parametros_map = {}
+            async with httpx.AsyncClient() as client:
+                # Busca os detalhes da estação
+                estacao_response = await client.get(f"{self.base_url}/estacoes/{uid}")
+                if estacao_response.status_code == 200:
+                    estacao = estacao_response.json()
+           
+ 
             # Para cada sensor da estação
             for sensor in estacao.get("sensores", []):
                     # Busca os detalhes do parâmetro
@@ -26,31 +33,32 @@ class ParametroService:
                     # Mapeia o campo 'json' com o nome do parâmetro
                     if param_details.get("json"):
                         parametros_map[param_details["json"]] = param_details["nome"]
-
+ 
                 return parametros_map
-
+ 
         except Exception as e:
             logging.error(f"Erro ao processar parâmetros: {str(e)}")
             return {}
-
+ 
     async def validar_parametros_mongodb(self, dados_mongodb: dict) -> Dict[str, float]:
         """Valida e formata os parâmetros do MongoDB"""
         try:
             uid = dados_mongodb.get("uid")
             if not uid:
                 return {}
-
+ 
             # Obtém o mapeamento de parâmetros da estação
             parametros_validos = await self.get_estacao_parametros(uid)
-            
+           
             # Filtra apenas os campos que são parâmetros válidos
             parametros_formatados = {}
             for campo, valor in dados_mongodb.items():
                 if campo in parametros_validos:
                     parametros_formatados[parametros_validos[campo]] = valor
-
+ 
             return parametros_formatados
-
+ 
         except Exception as e:
             logging.error(f"Erro ao validar parâmetros: {str(e)}")
             return {}
+ 
